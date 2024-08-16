@@ -1,1 +1,1 @@
-# HallEffectSwitchADC
+# Hall Effect Switch ADC

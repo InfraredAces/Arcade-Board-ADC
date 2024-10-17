@@ -1,0 +1,58 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "clear && mkdir -p build && cd build && cmake .. && make -j10",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build-full",
+            "type": "shell",
+            "command": "clear && mkdir -p build && rm -rf build/* && cd build && cmake .. && make -j10",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            }
+        },
+        {
+            "label": "test",
+            "type": "shell",
+            "command": "clear && mkdir -p build && rm -rf build/* && cd build && cmake .. && make -j10",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+            
+        },
+        {
+            "label": "test-cmake-full",
+            "type": "shell",
+            "command": "clear && mkdir -p build && rm -rf build/* && cmake -S . -B build && cmake --build build",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            }
+            
+        },
+        {
+            "label": "test-cmake-partial",
+            "type": "shell",
+            "command": "clear && mkdir -p build && cmake -S . -B build && cmake --build build",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": false
+            }
+            
+        }
+    ]
+}

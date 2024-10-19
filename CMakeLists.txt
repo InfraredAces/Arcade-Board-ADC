@@ -27,6 +27,7 @@ add_executable(${PROJECT_NAME}
 target_include_directories(${PROJECT_NAME} PUBLIC
   helpers
   drivers/CD74HC4067SM96
+  config
   config/CD74HC4067SM96
 
 )

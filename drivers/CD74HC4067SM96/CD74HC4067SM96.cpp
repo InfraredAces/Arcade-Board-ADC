@@ -2,7 +2,7 @@
 #include "GpioManager.h"
 #include "hardware/adc.h"
 
-CD74HC4067SM96::CD74HC4067SM96(uint8_t readPin, uint8_t s0, uint8_t s1, uint8_t s2, uint8_t s3, ButtonAction newButtonMapping[]) {
+CD74HC4067SM96::CD74HC4067SM96(uint8_t readPin, uint8_t s0, uint8_t s1, uint8_t s2, uint8_t s3) {
 
     if(isValidADCPin(readPin)) {
         _readPin = readPin;
@@ -40,10 +40,6 @@ CD74HC4067SM96::CD74HC4067SM96(uint8_t readPin, uint8_t s0, uint8_t s1, uint8_t 
         gpio_set_dir(_s3, GPIO_OUT);
         rp2040GPI0Pins[_s3].gpioState = GpioState::MUX_SELECTOR;
         bytes++;
-    }
-
-    for(size_t i = 0; i < CD74HC4067SM96_NUM_CHANNELS; i++) {
-        channelActionMapping[i] = newButtonMapping[i];
     }
 }
 

@@ -59,7 +59,7 @@
 class CD74HC4067SM96
 {
     public:
-        CD74HC4067SM96(uint8_t readPin, uint8_t s0, uint8_t s1, uint8_t s2, uint8_t s3, ButtonAction newButtonMapping[]);
+        CD74HC4067SM96(uint8_t readPin, uint8_t s0, uint8_t s1, uint8_t s2, uint8_t s3);
         uint16_t readChannel(uint8_t channel);
         uint8_t numChannels = 16;
     private:

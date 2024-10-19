@@ -1,18 +1,22 @@
 #ifndef GAMEPAD_CONFIG
 #define GAMEPAD_CONFIG
 
+#include "enums.h"
+#include "GpioManager.h"
+#include <map>
+
 // Main Output Pin Mapping Configuration
                                 // GP2040 | Xinput | Switch  | PS3/4/5  | Dinput | Arcade |
-#define GPIO_PIN_OUT_UP     00  // UP     | UP     | UP      | UP       | UP     | UP     |
-#define GPIO_PIN_OUT_DOWN   01  // DOWN   | DOWN   | DOWN    | DOWN     | DOWN   | DOWN   |
-#define GPIO_PIN_OUT_RIGHT  02  // RIGHT  | RIGHT  | RIGHT   | RIGHT    | RIGHT  | RIGHT  |
-#define GPIO_PIN_OUT_LEFT   03  // LEFT   | LEFT   | LEFT    | LEFT     | LEFT   | LEFT   |
-#define GPIO_PIN_OUT_B1     04  // B1     | A      | B       | Cross    | 2      | K1     |
-#define GPIO_PIN_OUT_B2     05  // B2     | B      | A       | Circle   | 3      | K2     |
-#define GPIO_PIN_OUT_B3     06  // B3     | X      | Y       | Square   | 1      | P1     |
-#define GPIO_PIN_OUT_B4     07  // B4     | Y      | X       | Triangle | 4      | P2     |
-#define GPIO_PIN_OUT_L1     08  // L1     | LB     | L       | L1       | 5      | P4     |
-#define GPIO_PIN_OUT_R1     09  // R1     | RB     | R       | R1       | 6      | P3     |
+#define GPIO_PIN_OUT_UP     0   // UP     | UP     | UP      | UP       | UP     | UP     |
+#define GPIO_PIN_OUT_DOWN   1   // DOWN   | DOWN   | DOWN    | DOWN     | DOWN   | DOWN   |
+#define GPIO_PIN_OUT_LEFT   2   // LEFT   | LEFT   | LEFT    | LEFT     | LEFT   | LEFT   |
+#define GPIO_PIN_OUT_RIGHT  3   // RIGHT  | RIGHT  | RIGHT   | RIGHT    | RIGHT  | RIGHT  |
+#define GPIO_PIN_OUT_B1     4   // B1     | A      | B       | Cross    | 2      | K1     |
+#define GPIO_PIN_OUT_B2     5   // B2     | B      | A       | Circle   | 3      | K2     |
+#define GPIO_PIN_OUT_B3     6   // B3     | X      | Y       | Square   | 1      | P1     |
+#define GPIO_PIN_OUT_B4     7   // B4     | Y      | X       | Triangle | 4      | P2     |
+#define GPIO_PIN_OUT_L1     8   // L1     | LB     | L       | L1       | 5      | P4     |
+#define GPIO_PIN_OUT_R1     9   // R1     | RB     | R       | R1       | 6      | P3     |
 #define GPIO_PIN_OUT_L2     10  // L2     | LT     | ZL      | L2       | 7      | K4     |
 #define GPIO_PIN_OUT_R2     11  // R2     | RT     | ZR      | R2       | 8      | K3     |
 #define GPIO_PIN_OUT_S1     12  // S1     | Back   | Minus   | Select   | 9      | Coin   |

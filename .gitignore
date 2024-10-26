@@ -35,5 +35,5 @@
 /build
 
 # VS Code
-# .devcontainer
-# .vscode
+.devcontainer
+.vscode

@@ -37,3 +37,6 @@
 # VS Code
 # .devcontainer
 # .vscode
+
+# KiCAD
+hardware/kicad/jlcpcb

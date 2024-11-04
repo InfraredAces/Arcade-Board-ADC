@@ -98,3 +98,5 @@ For each of the above configuration files, you will want to modify the following
 | BUTTON_PRESS_R3         | R3     | RS     | RS      | R3       | 12     | RS     |
 
 ## Acknowledgements
+
+- [GP2040-CE] - Inspiration for creating the project and making great gamepad firmware

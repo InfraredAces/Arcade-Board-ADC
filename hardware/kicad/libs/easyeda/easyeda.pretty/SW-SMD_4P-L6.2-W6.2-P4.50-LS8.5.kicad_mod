@@ -1,0 +1,229 @@
+(footprint "SW-SMD_4P-L6.2-W6.2-P4.50-LS8.5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.25 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "819e7ba2-2072-4e5c-b42d-55f30fa8c536")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-SMD_4P-L6.2-W6.2-P4.50-LS8.5"
+		(at 0 6.25 0)
+		(layer "F.Fab")
+		(uuid "667c3945-2cfd-48f3-8987-c3f38b6d1474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SW-SMD_4P-L6.2-W6.2-P4.50-LS8.5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c167cd4c-5827-4c47-884b-0a38741de024")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce8689f5-0824-4e52-a3e0-65e587bdebc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9450d82b-8441-4e7c-9317-5d69a145e037")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.1 -3.1)
+		(end 3.1 -3.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cda4a8a-a5b6-486a-9149-77aaa5b679d7")
+	)
+	(fp_line
+		(start -3.1 3.1)
+		(end -3.1 -3.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7efa9d8c-6eda-493e-8d7e-65ee148dccaf")
+	)
+	(fp_line
+		(start 3.1 -3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c688679-edcb-4961-8e93-e5aa488400a0")
+	)
+	(fp_line
+		(start 3.1 3.1)
+		(end -3.1 3.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "43a21e45-4047-4935-adc2-6c923e32b006")
+	)
+	(fp_circle
+		(center -2 -2)
+		(end -1.64 -2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d9713205-6b26-4fc6-9464-8c8e032cfdc6")
+	)
+	(fp_circle
+		(center -2 2)
+		(end -1.64 2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4aa625e3-40ec-4a78-a173-f9d6adebad0d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.27 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "8a72e58f-2a10-41d9-a19f-58bed62fafe4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.91 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "25371985-2351-4b62-b8e2-dee6068086df")
+	)
+	(fp_circle
+		(center 2 -2)
+		(end 2.36 -2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0c88e7d0-2c3c-4e57-a61e-d3333a527130")
+	)
+	(fp_circle
+		(center 2 2)
+		(end 2.36 2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "44751bbb-21fd-4843-8c4d-3cc7b0bbdc8e")
+	)
+	(fp_circle
+		(center -4.25 -3.1)
+		(end -4.22 -3.1)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9948533d-e051-477e-afcc-03ce79f27476")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1285e9b7-5845-47c1-be9e-cb7948b5d23f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4.2 -2.25)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "189a9259-7c23-4d16-964d-52e853bd054d")
+	)
+	(pad "2" smd rect
+		(at 4.2 -2.25)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "55f67ae4-4ddc-44fa-bcf2-7cd544407e42")
+	)
+	(pad "3" smd rect
+		(at -4.2 2.25)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e1700dd1-1c52-43cd-9bce-a96d75ce0334")
+	)
+	(pad "4" smd rect
+		(at 4.2 2.25)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "95f2fe76-f2f6-47da-a8bf-ff49aab624ad")
+	)
+	(model "/home/infraredaces/Documents/GP2040-CE-projects-hidden/ControllerAdapter/Embedded Hub /kicad/libs/easyeda/easyeda.3dshapes/SW-SMD_4P-L6.2-W6.2-H5.0-P4.50-LS8.5.wrl"
+		(offset
+			(xyz 0 -0 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

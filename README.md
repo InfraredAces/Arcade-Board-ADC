@@ -1,4 +1,4 @@
-# Hall Effect Switch ADC
+# Arcade Board ADC
 
 This project is hardware and firmare designed to convert 0-3.3V analog input signals to digital output signals for gamepad controller boards. 
 

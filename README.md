@@ -9,7 +9,12 @@ It is built with the intention of using Hall Effect keyboard switches with contr
 
 ## Feature Roadmap
 
-- Rapid Trigger Behavior
+- Advanced Trigger Behavior
+  - Static Trigger
+  - Rapid Trigger
+  - Continuous Rapid Trigger
+- Custom Actuation Distance
+- Per Button Settings
 - Analog output for Left and Right Analog stick axes
 - GUI Configurator
 

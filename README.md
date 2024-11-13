@@ -7,16 +7,22 @@ It is built with the intention of using Hall Effect keyboard switches with contr
 - [RP2040 Advanced Breakout Board](https://github.com/OpenStickCommunity/Hardware/tree/main/Boards/GP2040-CE%20Official%20Boards/RP2040%20Advanced%20Breakout%20Board/RP2040%20Advanced%20Breakout%20Board%20-%20Passthrough) ([GP2040-CE](https://gp2040-ce.info/))
 -  Various Brook boards
 
-## Feature Roadmap
+## To-Do
 
-- Advanced Trigger Behavior
-  - Static Trigger
-  - Rapid Trigger
-  - Continuous Rapid Trigger
-- Custom Actuation Distance
-- Per Button Settings
-- Analog output for Left and Right Analog stick axes
-- GUI Configurator
+- [X] User Configurable GPIO Input
+- [X] Custom Actuation Distance
+- [ ] Advanced Trigger Behavior
+  - [X] Static Trigger
+  - [ ] Rapid Trigger
+  - [ ] Continuous Rapid Trigger
+- [ ] Per Button Settings
+- [ ] Analog output for Left/Right Analog stick axes
+- [ ] Analog output for L2/R2 Analog Triggers
+- [ ] Analog output for all gamepad inputs
+- [ ] Board Hardware - Production Files
+  - [ ] Primary Board
+  - [ ] MUX Auxilary Board
+- [ ] Web GUI Configurator
 
 ## Project Setup
 

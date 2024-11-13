@@ -5,7 +5,9 @@ This project is hardware and firmare designed to convert 0-3.3V analog input sig
 It is built with the intention of using Hall Effect keyboard switches with controller boards that typically only accept digital signals for gamepad inputs through 20 pin connectors. Such as
 
 - [RP2040 Advanced Breakout Board](https://github.com/OpenStickCommunity/Hardware/tree/main/Boards/GP2040-CE%20Official%20Boards/RP2040%20Advanced%20Breakout%20Board/RP2040%20Advanced%20Breakout%20Board%20-%20Passthrough) ([GP2040-CE](https://gp2040-ce.info/))
--  Various Brook boards
+-  [Brook Universal Fighting Board](https://www.brookaccessory.com/detail/06960737/)
+-  [Brook UFB-Fusion](https://www.brookaccessory.com/products/ufbfusion/index.html)
+-  [Brook P5 PLUS Fighting Board](https://www.brookaccessory.com/products/p5plus/index.html)
 
 ## To-Do
 
@@ -23,6 +25,7 @@ It is built with the intention of using Hall Effect keyboard switches with contr
   - [ ] Primary Board
   - [ ] MUX Auxilary Board
 - [ ] Web GUI Configurator
+- [ ] Github Workflow .uf2 Build (CI/CD)
 
 ## Project Setup
 
